@@ -1,28 +1,40 @@
-.vscode/
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# Java build outputs
-out/
-build/
-target/
-
+# ===========================
 # Gradle
+# ===========================
 .gradle/
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
 !gradlew
 !gradlew.bat
 
-# Logs and temp files
+# Gradle build output
+app/build/
+build/
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iml
+
+# ===========================
+# VSCode
+# ===========================
+.vscode/
+
+# ===========================
+# Java / general
+# ===========================
+out/
+target/
+*.class
 *.log
 *.tmp
 *.swp
 *.bak
-*.class
 
+# ===========================
 # System files
+# ===========================
 .DS_Store
 Thumbs.db
